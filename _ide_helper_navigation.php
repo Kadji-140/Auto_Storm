@@ -1,0 +1,188 @@
+<?php
+
+/**
+ * Navigation Helper - Mapping des fichiers
+ * Généré le 2025-07-11 22:34:30
+ */
+
+return [
+    'routes' => [
+        'sanctum.csrf-cookie' => [
+            'uri' => 'sanctum/csrf-cookie',
+            'methods' => ['GET', 'HEAD'],
+            'action' => 'Laravel\Sanctum\Http\Controllers\CsrfCookieController@show',
+            'file' => 'unknown',
+        ],
+        'ignition.healthCheck' => [
+            'uri' => '_ignition/health-check',
+            'methods' => ['GET', 'HEAD'],
+            'action' => 'Spatie\LaravelIgnition\Http\Controllers\HealthCheckController',
+            'file' => 'unknown',
+        ],
+        'ignition.executeSolution' => [
+            'uri' => '_ignition/execute-solution',
+            'methods' => ['POST'],
+            'action' => 'Spatie\LaravelIgnition\Http\Controllers\ExecuteSolutionController',
+            'file' => 'unknown',
+        ],
+        'ignition.updateConfig' => [
+            'uri' => '_ignition/update-config',
+            'methods' => ['POST'],
+            'action' => 'Spatie\LaravelIgnition\Http\Controllers\UpdateConfigController',
+            'file' => 'unknown',
+        ],
+        'products.index' => [
+            'uri' => 'products',
+            'methods' => ['GET', 'HEAD'],
+            'action' => 'App\Http\Controllers\ProductController@index',
+            'file' => 'unknown',
+        ],
+        'products.create' => [
+            'uri' => 'products/create',
+            'methods' => ['GET', 'HEAD'],
+            'action' => 'App\Http\Controllers\ProductController@create',
+            'file' => 'unknown',
+        ],
+        'products.store' => [
+            'uri' => 'products',
+            'methods' => ['POST'],
+            'action' => 'App\Http\Controllers\ProductController@store',
+            'file' => 'unknown',
+        ],
+        'products.show' => [
+            'uri' => 'products/{product}',
+            'methods' => ['GET', 'HEAD'],
+            'action' => 'App\Http\Controllers\ProductController@show',
+            'file' => 'unknown',
+        ],
+        'products.edit' => [
+            'uri' => 'products/{product}/edit',
+            'methods' => ['GET', 'HEAD'],
+            'action' => 'App\Http\Controllers\ProductController@edit',
+            'file' => 'unknown',
+        ],
+        'products.update' => [
+            'uri' => 'products/{product}',
+            'methods' => ['PUT', 'PATCH'],
+            'action' => 'App\Http\Controllers\ProductController@update',
+            'file' => 'unknown',
+        ],
+        'products.destroy' => [
+            'uri' => 'products/{product}',
+            'methods' => ['DELETE'],
+            'action' => 'App\Http\Controllers\ProductController@destroy',
+            'file' => 'unknown',
+        ],
+        'nulla.index' => [
+            'uri' => 'nulla',
+            'methods' => ['GET', 'HEAD'],
+            'action' => 'App\Http\Controllers\NullController@index',
+            'file' => 'unknown',
+        ],
+        'nulla.create' => [
+            'uri' => 'nulla/create',
+            'methods' => ['GET', 'HEAD'],
+            'action' => 'App\Http\Controllers\NullController@create',
+            'file' => 'unknown',
+        ],
+        'nulla.store' => [
+            'uri' => 'nulla',
+            'methods' => ['POST'],
+            'action' => 'App\Http\Controllers\NullController@store',
+            'file' => 'unknown',
+        ],
+        'nulla.show' => [
+            'uri' => 'nulla/{nulla}',
+            'methods' => ['GET', 'HEAD'],
+            'action' => 'App\Http\Controllers\NullController@show',
+            'file' => 'unknown',
+        ],
+        'nulla.edit' => [
+            'uri' => 'nulla/{nulla}/edit',
+            'methods' => ['GET', 'HEAD'],
+            'action' => 'App\Http\Controllers\NullController@edit',
+            'file' => 'unknown',
+        ],
+        'nulla.update' => [
+            'uri' => 'nulla/{nulla}',
+            'methods' => ['PUT', 'PATCH'],
+            'action' => 'App\Http\Controllers\NullController@update',
+            'file' => 'unknown',
+        ],
+        'nulla.destroy' => [
+            'uri' => 'nulla/{nulla}',
+            'methods' => ['DELETE'],
+            'action' => 'App\Http\Controllers\NullController@destroy',
+            'file' => 'unknown',
+        ],
+        'users.index' => [
+            'uri' => 'users',
+            'methods' => ['GET', 'HEAD'],
+            'action' => 'App\Http\Controllers\UserController@index',
+            'file' => 'unknown',
+        ],
+        'users.create' => [
+            'uri' => 'users/create',
+            'methods' => ['GET', 'HEAD'],
+            'action' => 'App\Http\Controllers\UserController@create',
+            'file' => 'unknown',
+        ],
+        'users.store' => [
+            'uri' => 'users',
+            'methods' => ['POST'],
+            'action' => 'App\Http\Controllers\UserController@store',
+            'file' => 'unknown',
+        ],
+        'users.show' => [
+            'uri' => 'users/{user}',
+            'methods' => ['GET', 'HEAD'],
+            'action' => 'App\Http\Controllers\UserController@show',
+            'file' => 'unknown',
+        ],
+        'users.edit' => [
+            'uri' => 'users/{user}/edit',
+            'methods' => ['GET', 'HEAD'],
+            'action' => 'App\Http\Controllers\UserController@edit',
+            'file' => 'unknown',
+        ],
+        'users.update' => [
+            'uri' => 'users/{user}',
+            'methods' => ['PUT', 'PATCH'],
+            'action' => 'App\Http\Controllers\UserController@update',
+            'file' => 'unknown',
+        ],
+        'users.destroy' => [
+            'uri' => 'users/{user}',
+            'methods' => ['DELETE'],
+            'action' => 'App\Http\Controllers\UserController@destroy',
+            'file' => 'unknown',
+        ],
+    ],
+    'views' => [
+        'aza' => 'resources\views\aza.php',
+        'azerty' => 'resources\views\azerty.blade.php',
+        'bienvenue' => 'resources\views\bienvenue.blade.php',
+        'components.form-errors' => 'resources\views\components\form-errors.blade.php',
+        'components.null.create' => 'resources\views\components\null\create.blade.php',
+        'components.null.cree' => 'resources\views\components\null\cree.blade.php',
+        'components.null.edit' => 'resources\views\components\null\edit.blade.php',
+        'components.null.index' => 'resources\views\components\null\index.blade.php',
+        'components.null.show2' => 'resources\views\components\null\show2.blade.php',
+        'hello-data' => 'resources\views\hello-data.blade.php',
+        'hello' => 'resources\views\hello.blade.php',
+        'index3' => 'resources\views\index3.blade.php',
+        'lipo' => 'resources\views\lipo.blade.php',
+        'products.create' => 'resources\views\products\create.blade.php',
+        'products.cree' => 'resources\views\products\cree.blade.php',
+        'products.edit' => 'resources\views\products\edit.blade.php',
+        'products.index' => 'resources\views\products\index.blade.php',
+        'products.show2' => 'resources\views\products\show2.blade.php',
+        'show' => 'resources\views\show.blade.php',
+        'users.create' => 'resources\views\users\create.blade.php',
+        'users.edit' => 'resources\views\users\edit.blade.php',
+        'users.index' => 'resources\views\users\index.blade.php',
+        'users.show' => 'resources\views\users\show.blade.php',
+        'vue_personaliser' => 'resources\views\vue_personaliser.blade.php',
+        'welcome' => 'resources\views\welcome.blade.php',
+    ],
+];

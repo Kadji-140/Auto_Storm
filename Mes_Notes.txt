@@ -1,0 +1,10 @@
+
+
+
+Faire attention lorsque tu itilide une classe de request. Lorque c'est le cas tu doit utiliser la methode 
+'validated' et non 'validate' voici la difference de ses deux methode 
+    validate: Sutilise dans le contoller pour valider les données nayant pas ete valider par une classe de request
+    validated: S'utilise dans une classe de request pour valider les données ayant ete valider par une classe de request
+En bref: validate lorsque je n'utilise pas de request personnaliser et validated lorsque je j'utilise des request personnaliser
+    2.    //  Dans ces classe Request ont y met les requetes de validation et les messages specifique au erreurs de ces fichier 
+    
