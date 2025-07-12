@@ -14,6 +14,8 @@
                     <li>Nom: {{ $user->name }}</li>
                     <li>Prenom: {{ $user-> prenom }}</li>
                     <li>Email: {{ $user->email }}</li>
+                    <a href="{{ route('users.show', $user) }}" class="btn btn-primary"> Detail</a>
+                    <hr>
                 @endforeach
 
 
